@@ -1,7 +1,5 @@
 "use client";
 
-type CartPageProps = {};
-
-export function CartPage({}: CartPageProps) {
+export function CartPage() {
   return <section></section>;
 }

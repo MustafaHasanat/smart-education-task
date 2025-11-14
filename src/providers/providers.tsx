@@ -4,7 +4,7 @@ import { MantineProvider } from "@mantine/core";
 import type { ReactNode } from "react";
 import { BrowserRouter } from "react-router-dom";
 import { theme } from "../constants";
-import TanStackProvider from "./tanstack-provider";
+import TanStackProvider from "./TanstackProvider";
 
 type ProvidersProps = {
   children: ReactNode;
