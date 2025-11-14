@@ -1,0 +1,2 @@
+export const PRODUCTS_TOTAL_PRODUCTS = 10_000;
+export const PRODUCTS_PAGE_SIZE = 24;

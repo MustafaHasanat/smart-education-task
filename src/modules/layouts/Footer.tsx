@@ -7,6 +7,7 @@ export function Footer() {
       className="w-full flex justify-center items-center text-center relative!"
       bg={"blue"}
       p={20}
+      c={"white"}
     >
       <Text>© 2025 All Rights Reserved - Smart Education Task</Text>
     </AppShell.Footer>

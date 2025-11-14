@@ -1,5 +1,6 @@
 import "@mantine/core/styles.css";
-import { Router } from "./modules/layouts";
+import "@mantine/notifications/styles.css";
+import { Router } from "@modules/layouts";
 
 function App() {
   return <Router />;

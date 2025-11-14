@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
-import { fetchProducts } from "../lib";
-import type { PaginatedProps } from "../types";
+import type { PaginatedProps } from "@/types";
+import { fetchProducts } from "@/lib";
 
 export const useGetProducts = ({ page = 1 }: PaginatedProps) => {
   return useQuery({

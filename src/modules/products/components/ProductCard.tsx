@@ -1,7 +1,7 @@
 import { AspectRatio, Badge, Card, Group, Image, Text } from "@mantine/core";
-import type { Product } from "../../types";
+import type { Product } from "@/types";
 import { Link } from "react-router-dom";
-import { RoutePath } from "../../constants";
+import { RoutePath } from "@/constants";
 
 interface ProductCardProps {
   product: Product;
