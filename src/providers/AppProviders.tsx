@@ -10,7 +10,7 @@ type ProvidersProps = {
   children: ReactNode;
 };
 
-export function Providers({ children }: ProvidersProps) {
+export function AppProviders({ children }: ProvidersProps) {
   return (
     <BrowserRouter>
       <MantineProvider theme={theme}>
