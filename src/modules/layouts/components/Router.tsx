@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import { Layout, NotFoundPage } from ".";
+import { Layout, NotFoundPage } from "..";
 import { RoutePath } from "@/constants";
 import { ProductDetailsPage, ProductsListingPage } from "@modules/products";
 import { CartPage } from "@modules/cart";
